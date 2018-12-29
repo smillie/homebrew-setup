@@ -12,6 +12,7 @@ brew 'ctags'
 brew 'git'
 brew 'grc'
 brew 'htop'
+brew 'httpie'
 brew 'hub'
 brew 'jq'
 brew 'mas'
@@ -46,9 +47,16 @@ cask 'iterm2'
 cask 'keepingyouawake'
 cask 'postman'
 cask 'sequel-pro'
+cask 'tunnelblick'
 cask 'visual-studio-code'
 cask 'visualvm'
 
 # appstore
 mas '1Password', id: 1333542190
 mas 'Bear', id: 1091189122
+
+#fonts
+tap 'caskroom/fonts'
+cask 'font-fira-code'
+cask 'font-inconsolata'
+cask 'font-source-code-pro'
